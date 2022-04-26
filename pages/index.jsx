@@ -10,15 +10,15 @@ export default function Home() {
           <header className={styles.header}>
             <img src="/header.svg" alt="" />
           </header>
-          <Product title="All our products" to="/search/Index"/>
+          <Product title="All our products" to="/search/"/>
           {/* <News /> */}
-          <Product title="Physical Games" to="/search/PhysicalGames"/>
-          <Product title="Digital Games" to="/search/DigitalGames"/>
+          <Product title="Physical Games" to="/search/physicalGames"/>
+          <Product title="Digital Games" to="/search/digitalGames"/>
           <section className={styles.banner}>
             <img src="/banner.svg" alt="" />
           </section>
-          <Product title="All Games" to="/search/Index"/>
-          <Product title="Streaming" to="/search/Streaming"/>
+          <Product title="All Games" to="/search/"/>
+          <Product title="Streaming" to="/search/streaming"/>
         </div>
         {/* <Footer></Footer> */}
       </Layout>

@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "../components/Layout";
 import styles from "../styles/Cart.module.scss";
 import { useRouter } from "next/router";
-import CartArticle from "../components/CartArticle/";
+import CartArticle from "../components/CartArticle";
 
 const Cart = () => {
   const router = useRouter();

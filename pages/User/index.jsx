@@ -1,6 +1,6 @@
 import React from "react";
-import Layout from "../../components/Layout/";
-import ProductRecord from "../../components/ProductRecord/";
+import Layout from "../../components/Layout";
+import ProductRecord from "../../components/ProductRecord";
 import styles from "../../styles/UserProfile.module.scss";
 const UserProfile = () => {
   return (

@@ -80,7 +80,7 @@ export default function Products({title, to}) {
             {/* <button className={styles.mostSold}>Most sold</button> */}
           </div>
           <div className={styles.categories}>
-            <Link className={styles.a}href={to} >
+            <Link className={styles.a} href={to} >
               <a>See all</a>
             </Link>
             {/* <Image src="/icons/downtriangle.svg" width={18} height={18} /> */}

@@ -7,7 +7,7 @@ const Upnavbar = () => {
   const router = useRouter();
   const handleClick = (e) => {
     e.preventDefault();
-    router.push("/Cart");
+    router.push("/cart");
   };
   return (
     <nav className={styles.container}>

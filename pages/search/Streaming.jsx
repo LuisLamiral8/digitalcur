@@ -10,13 +10,18 @@ const Streaming = () => {
         <div className={styles.filterContainer}>
           <div className={styles.filter}>
             <p className={styles.filterBy}>FILTER BY</p>
-            <a href="#">Gender</a>
-            <a href="#">Gender</a>
-            <a href="#">Gender</a>
-            <a href="#">Gender</a>
-            <a href="#">Gender</a>
-            <a href="#">Gender</a>
-            <a href="#">Gender</a>
+            <a href="#">• Fight</a>
+            <a href="#">• Action</a>
+            <a href="#">• MetroidVania</a>
+            <a href="#">• Shooter</a>
+            <a href="#">• Survival</a>
+            <a href="#">• Indie</a>
+            <a href="#">• Long Storty</a>
+            <a href="#">• MMORPG</a>
+            <a href="#">• RPG</a>
+            <a href="#">• Multiplayer</a>
+            <a href="#">• Multiplayer COOP</a>
+            <a href="#">• Online</a>
           </div>
           <div className={styles.pricing}>
             <p className={styles.filterBy}>FILTER BY</p>

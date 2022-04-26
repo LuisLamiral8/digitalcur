@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "../../components/Layout/";
+import Layout from "../../components/Layout";
 import styles from "../../styles/User.module.scss";
 import Link from "next/link";
 import { useRouter } from "next/router";

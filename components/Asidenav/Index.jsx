@@ -12,15 +12,15 @@ const Asidenav = () => {
   };
   const handleClick2 = (e) => {
     e.preventDefault();
-    router.push("/User/Login");
+    router.push("/user/login");
   };
   const handleClick3 = (e) => {
     e.preventDefault();
-    router.push("/search/Index");
+    router.push("/search/");
   };
   const handleClick4 = (e) => {
     e.preventDefault();
-    router.push("/Cart");
+    router.push("/cart");
   };
 
   return (
@@ -37,13 +37,13 @@ const Asidenav = () => {
         <div className={styles.section1}>
           <div className={styles.item}>
             <Image src="/icons/user.svg" width={25} height={25} alt="" />
-            <Link href="/User/Login">
+            <Link href="/user/login">
               <a>Log-in</a>
             </Link>
           </div>
           <div className={styles.item}>
             <Image src="/icons/search.svg" width={25} height={25} alt="" />
-            <Link href="/search/Index">
+            <Link href="/search/">
               <a>Search</a>
             </Link>
           </div>
@@ -55,25 +55,25 @@ const Asidenav = () => {
         <div className={styles.section2}>
           <div className={styles.item}>
             <Image src="/icons/physicalgames.svg" width={25} height={25} alt="" />
-            <Link href="/search/PhysicalGames">
+            <Link href="/search/physicalGames">
               <a>Physical Games</a>
             </Link>
           </div>
           <div className={styles.item}>
             <Image src="/icons/digitalgames.svg" width={25} height={25} alt=""/>
-            <Link href="/search/DigitalGames">
+            <Link href="/search/digitalGames">
               <a>Digital Games</a>
             </Link>
           </div>
           <div className={styles.item}>
             <Image src="/icons/games.svg" width={25} height={25} alt=""/>
-            <Link href="/search/Index">
+            <Link href="/search/">
               <a>Games</a>
             </Link>
           </div>
           <div className={styles.item}>
             <Image src="/icons/streaming.svg" width={25} height={25} alt=""/>
-            <Link href="/search/Streaming">
+            <Link href="/search/streaming">
               <a>Streaming</a>
             </Link>
           </div>
