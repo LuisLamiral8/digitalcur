@@ -1,14 +1,14 @@
-
+// import React from "react";
 import Layout from "../components/Layout";
 import styles from "../styles/User.module.scss";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
 const login = () => {
-  const router = useRouter();
+  const router = useRouter()
   const handleClick = (e) => {
-    e.preventDefault();
-    router.push("/user");
+    e.preventDefault()
+    router.push("/user")
   };
   return (
     <Layout title="Login | DigitalCur" desc="DigitalCur">

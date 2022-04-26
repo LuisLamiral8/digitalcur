@@ -1,9 +1,8 @@
-import React from "react";
+// import React from "react";
 import Layout from "../components/Layout";
 import styles from "../styles/Cart.module.scss";
 import { useRouter } from "next/router";
 import CartArticle from "../components/CartArticle";
-
 const cart = () => {
   const router = useRouter();
   const handleClick = (e) => {
