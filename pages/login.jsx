@@ -23,7 +23,7 @@ const Login = () => {
         <div className={styles.login}>
           <h2>LOGIN</h2>
           <input type="text" placeholder="Email" />
-          <input type="text" placeholder="Password" />
+          <input type="password" placeholder="Password" />
           <div className={styles.info}>
             <Link href="/register">
               <a>CREATE ACCOUNT</a>
