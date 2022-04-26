@@ -40,6 +40,7 @@ const Register = () => {
             <input type="text" placeholder="State" />
             <input type="text" placeholder="Direction" />
             <input type="text" placeholder="Height" />
+            <input type="text" placeholder="CRIB" />
             <input type="text" placeholder="Postal Code" />
             <button
               className={styles.submit}

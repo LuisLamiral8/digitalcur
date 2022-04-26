@@ -104,10 +104,10 @@ const Cart = () => {
                 <p>CVV</p>
                 <input type="text" placeholder="XXX" />
               </div>
-              <div className={styles.crib}>
+              {/* <div className={styles.crib}>
                 <p>CRIB</p>
                 <input type="text" placeholder="XXXX" />
-              </div>
+              </div> */}
               <button>CHECKOUT</button>
             </div>
             <div className={styles.rightInfo}>

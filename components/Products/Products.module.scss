@@ -121,9 +121,17 @@
       display: none !important;
     }
   }
-  .categories {
-    a {
-      // font-size: 12px;
+  // .categories {
+  //   a {
+  //     // font-size: 12px;
+  //   }
+  // }
+}
+@media(max-width:460px){
+  .categories{
+    font-size: 12px !important;
+    img{
+      width: 12px !important;
     }
   }
 }

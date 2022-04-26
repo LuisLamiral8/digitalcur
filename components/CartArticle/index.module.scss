@@ -42,10 +42,10 @@
       }
     }
   }
-  .title{
+  .title {
     width: 31%;
   }
-  .number{
+  .number {
     width: 5%;
   }
   .delete {
@@ -54,6 +54,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 5px;
     button {
       cursor: pointer;
       background-color: transparent;
@@ -105,9 +106,15 @@
     }
   }
 }
-@media(max-width: 470px){
-  .img{
-    display: none !important;
+@media (max-width: 470px) {
+  .container {
+
+    .price {
+      font-size: 12px !important;
+    }
+    .img {
+      display: none !important;
+    }
   }
 }
 // @media (max-width: 500px) {
