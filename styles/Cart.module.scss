@@ -209,8 +209,16 @@
 }
 @media (max-width: 1050px) {
   .creditContainer {
+    h2 {
+      width: 50% !important;
+      margin: 0 auto;
+      font-size: 25px !important;
+    }
     button {
       font-size: 20px !important;
+    }
+    p {
+      font-size: 15px !important;
     }
   }
   .rightInfo {
@@ -222,6 +230,9 @@
       width: 40%;
       margin: 0 auto;
     }
+  }
+  .leftInfo {
+    font-size: 12px !important;
   }
 }
 @media (max-width: 990px) {
@@ -265,11 +276,11 @@
     }
   }
 }
-@media(max-width:600px){
-  .leftTitle{
+@media (max-width: 600px) {
+  .leftTitle {
     margin: 20px auto;
 
-    h2{
+    h2 {
       font-size: 40px !important;
       text-align: center;
     }
