@@ -5,7 +5,7 @@ import Upnavbar from "../Upnavbar";
 import Footer from "../Footer";
 import styles from "./Layout.module.scss";
 
-const Layout = ({ children, title, desc }) => {
+export default function Layout({ children, title, desc }){
   return (
     <div className={styles.container}>
       <Head>
@@ -26,7 +26,6 @@ const Layout = ({ children, title, desc }) => {
       </div>
           {/* <Footer></Footer> */}
     </div>
-  )
-}
+  );
+};
 
-export default Layout;
