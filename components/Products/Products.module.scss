@@ -58,7 +58,7 @@
       a {
         color: #ffff;
         margin-right: 5px;
-        transition: all 1000ms;
+        transition: all 750ms;
       }
       img {
         width: 15px;
@@ -67,7 +67,7 @@
       &:hover {
         transform: translateX(-10px);
         a {
-          color: rgb(143, 143, 143);
+          color: #2D60E4;
         }
       }
     }
