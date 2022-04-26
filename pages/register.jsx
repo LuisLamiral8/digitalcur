@@ -3,7 +3,7 @@ import Layout from "../components/Layout";
 import styles from "../styles/User.module.scss";
 import { useRouter } from "next/router";
 
-const register = () => {
+const Register = () => {
   const router = useRouter();
   const handleClick = (e) => {
     e.preventDefault();
@@ -48,4 +48,4 @@ const register = () => {
   );
 };
 
-export default register;
+export default Register;

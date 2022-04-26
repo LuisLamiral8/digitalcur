@@ -3,7 +3,7 @@ import Layout from "../components/Layout";
 import styles from "../styles/Cart.module.scss";
 import { useRouter } from "next/router";
 import CartArticle from "../components/CartArticle";
-const cart = () => {
+const Cart = () => {
   const router = useRouter();
   const handleClick = (e) => {
     e.preventDefault();
@@ -114,4 +114,4 @@ const cart = () => {
   );
 };
 
-export default cart;
+export default Cart;

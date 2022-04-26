@@ -4,12 +4,8 @@ import styles from "../styles/User.module.scss";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-const login = () => {
-  const router = useRouter()
-  const handleClick = (e) => {
-    e.preventDefault()
-    router.push("/user")
-  };
+const Login = () => {
+  const router = useRouter();
   return (
     <Layout title="Login | DigitalCur" desc="DigitalCur">
       <div className={styles.containerLogin}>
@@ -23,7 +19,7 @@ const login = () => {
             </Link>
             <a href="#">I FORGOT THE PASSWORD</a>
           </div>
-          <button onClick={handleClick} className={styles.submit} type="submit">
+          <button onClick={() => router.push("/user")} className={styles.submit} type="submit">
             Log in
           </button>
         </div>
@@ -32,4 +28,4 @@ const login = () => {
   );
 };
 
-export default login;
+export default Login;
