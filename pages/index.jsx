@@ -2,7 +2,7 @@ import Layout from "../components/Layout";
 import styles from "../styles/index.module.scss";
 import Product from "../components/Products";
 
-export default function Home() {
+export default function home() {
   return (
     <body>
       <Layout title="Home | DigitalCur" desc="DigitalCur">

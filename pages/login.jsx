@@ -1,14 +1,14 @@
 
-import Layout from "../../components/Layout";
-import styles from "../../styles/User.module.scss";
+import Layout from "../components/Layout";
+import styles from "../styles/User.module.scss";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-const Login = () => {
+const login = () => {
   const router = useRouter();
   const handleClick = (e) => {
     e.preventDefault();
-    router.push("/user/");
+    router.push("/user");
   };
   return (
     <Layout title="Login | DigitalCur" desc="DigitalCur">
@@ -18,7 +18,7 @@ const Login = () => {
           <input type="text" placeholder="Email" />
           <input type="text" placeholder="Password" />
           <div className={styles.info}>
-            <Link href="/user/register">
+            <Link href="/register">
               <a>CREATE ACCOUNT</a>
             </Link>
             <a href="#">I FORGOT THE PASSWORD</a>
@@ -32,4 +32,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default login;

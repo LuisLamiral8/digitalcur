@@ -1,10 +1,10 @@
 import React from "react";
-import Layout from "../../components/Layout";
-import ProductRecord from "../../components/ProductRecord";
-import styles from "../../styles/UserProfile.module.scss";
-const UserProfile = () => {
+import Layout from "../components/Layout";
+import ProductRecord from "../components/ProductRecord";
+import styles from "../styles/UserProfile.module.scss";
+const user = () => {
   return (
-    <Layout>
+    <Layout title="User | DigitalCur" desc="DigitalCur">
       <div className={styles.container}>
         <div className={styles.titleContainer}>
           <div className={styles.upContainer}>
@@ -79,4 +79,4 @@ const UserProfile = () => {
   );
 };
 
-export default UserProfile;
+export default user;

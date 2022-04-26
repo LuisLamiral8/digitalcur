@@ -3,7 +3,7 @@ import Layout from "../../components/Layout";
 import styles from "../../styles/Search.module.scss";
 import Card from "../../components/Products/Card";
 
-const Streaming = () => {
+const streaming = () => {
   return (
     <Layout title="Streaming | DigitalCur" desc="DigitalCur">
       <div className={styles.container}>
@@ -108,4 +108,4 @@ const Streaming = () => {
   );
 };
 
-export default Streaming;
+export default streaming;

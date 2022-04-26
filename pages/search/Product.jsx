@@ -1,9 +1,9 @@
 import React from "react";
 import Layout from '../../components/Layout'
 import styles from "../../styles/ProductPage.module.scss";
-const Product = () => {
+const product = () => {
   return (
-    <Layout>
+    <Layout title="Product | DigitalCur" desc="DigitalCur">
       <div className={styles.container}>
         <div className={styles.leftContainer}>
           <div className={styles.images}>
@@ -91,4 +91,4 @@ const Product = () => {
   );
 };
 
-export default Product;
+export default product;

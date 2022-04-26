@@ -1,10 +1,9 @@
 import React from "react";
-import Layout from "../../components/Layout";
-import styles from "../../styles/User.module.scss";
-import Link from "next/link";
+import Layout from "../components/Layout";
+import styles from "../styles/User.module.scss";
 import { useRouter } from "next/router";
 
-const Login = () => {
+const register = () => {
   const router = useRouter();
   const handleClick = (e) => {
     e.preventDefault();
@@ -49,4 +48,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default register;

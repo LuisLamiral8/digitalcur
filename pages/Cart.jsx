@@ -4,14 +4,14 @@ import styles from "../styles/Cart.module.scss";
 import { useRouter } from "next/router";
 import CartArticle from "../components/CartArticle";
 
-const Cart = () => {
+const cart = () => {
   const router = useRouter();
   const handleClick = (e) => {
     e.preventDefault();
     router.push("/");
   };
   return (
-    <Layout>
+    <Layout title="My Cart | DigitalCur" desc="DigitalCur">
       <div className={styles.container}>
         <div className={styles.leftTitle}>
           <h2>My shopping cart</h2>
@@ -115,4 +115,4 @@ const Cart = () => {
   );
 };
 
-export default Cart;
+export default cart;

@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "../../components/Layout";
 import styles from "../../styles/Search.module.scss";
 import Card from "../../components/Products/Card";
-const PhysicalGames = () => {
+const physicalGames = () => {
   return (
     <Layout title="Physical Games | DigitalCur" desc="DigitalCur">
       <div className={styles.container}>
@@ -107,4 +107,4 @@ const PhysicalGames = () => {
   );
 };
 
-export default PhysicalGames;
+export default physicalGames;

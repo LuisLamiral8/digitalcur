@@ -12,7 +12,7 @@ const Asidenav = () => {
   };
   const handleClick2 = (e) => {
     e.preventDefault();
-    router.push("/user/login");
+    router.push("/login");
   };
   const handleClick3 = (e) => {
     e.preventDefault();
@@ -37,7 +37,7 @@ const Asidenav = () => {
         <div className={styles.section1}>
           <div className={styles.item}>
             <Image src="/icons/user.svg" width={25} height={25} alt="" />
-            <Link href="/user/login">
+            <Link href="/login">
               <a>Log-in</a>
             </Link>
           </div>

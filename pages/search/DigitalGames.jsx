@@ -3,7 +3,7 @@ import Layout from '../../components/Layout'
 import styles from "../../styles/Search.module.scss";
 import Card from "../../components/Products/Card";
 
-const DigitalGames = () => {
+const digitalGames = () => {
   return (
     <Layout title="Digital Games | DigitalCur" desc="DigitalCur">
       <div className={styles.container}>
@@ -108,4 +108,4 @@ const DigitalGames = () => {
   );
 };
 
-export default DigitalGames;
+export default digitalGames;
