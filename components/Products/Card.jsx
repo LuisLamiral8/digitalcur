@@ -7,7 +7,7 @@ const Card = ({image, name, type, price, subprice}) => {
   const router = useRouter();
   const handleClick = (e) => {
     e.preventDefault();
-    router.push("/search/product");
+    router.push("/search/productPage");
   };
   return (
     <div className={styles.container}>

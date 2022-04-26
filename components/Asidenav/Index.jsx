@@ -20,7 +20,7 @@ const Asidenav = () => {
   };
   const handleClick4 = (e) => {
     e.preventDefault();
-    router.push("/cart");
+    router.push("/myCart");
   };
 
   return (
@@ -55,13 +55,13 @@ const Asidenav = () => {
         <div className={styles.section2}>
           <div className={styles.item}>
             <Image src="/icons/physicalgames.svg" width={25} height={25} alt="" />
-            <Link href="/search/physicalGames">
+            <Link href="/search/searchPhysical">
               <a>Physical Games</a>
             </Link>
           </div>
           <div className={styles.item}>
             <Image src="/icons/digitalgames.svg" width={25} height={25} alt=""/>
-            <Link href="/search/digitalGames">
+            <Link href="/search/searchDigital">
               <a>Digital Games</a>
             </Link>
           </div>
@@ -73,7 +73,7 @@ const Asidenav = () => {
           </div>
           <div className={styles.item}>
             <Image src="/icons/streaming.svg" width={25} height={25} alt=""/>
-            <Link href="/search/streaming">
+            <Link href="/search/searchStreaming">
               <a>Streaming</a>
             </Link>
           </div>

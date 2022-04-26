@@ -12,13 +12,13 @@ export default function home() {
           </header>
           <Product title="All our products" to="/search/"/>
           {/* <News /> */}
-          <Product title="Physical Games" to="/search/physicalGames"/>
-          <Product title="Digital Games" to="/search/digitalGames"/>
+          <Product title="Physical Games" to="/search/searchPhysical"/>
+          <Product title="Digital Games" to="/search/searchDigital"/>
           <section className={styles.banner}>
             <img src="/banner.svg" alt="" />
           </section>
           <Product title="All Games" to="/search/"/>
-          <Product title="Streaming" to="/search/streaming"/>
+          <Product title="Streaming" to="/search/searchStreaming"/>
         </div>
         {/* <Footer></Footer> */}
       </Layout>
