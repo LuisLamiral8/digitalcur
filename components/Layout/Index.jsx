@@ -5,7 +5,7 @@ import Upnavbar from "../Upnavbar";
 import Footer from "../Footer";
 import styles from "./Layout.module.scss";
 
-const Layout = ({ children, title, desc }) => {
+const Layout = ({ children, title, desc, icon1, class1, icon2, class2, icon3, class3, icon4, class4}) => {
   return (
     <div className={styles.container}>
       <Head>
@@ -15,7 +15,16 @@ const Layout = ({ children, title, desc }) => {
       </Head>
       <div className={styles.superMainContainer}>
         <div className={styles.asideContainer}>
-          <Asidenav />
+          <Asidenav 
+          icon1 = {icon1}
+          icon2 = {icon2}
+          icon3 = {icon3}
+          icon4 = {icon4}
+          class1 = {class1}
+          class2 = {class2}
+          class3 = {class3}
+          class4 = {class4}
+          />
         </div>
         <div className={styles.mainContainer}>
           <Upnavbar />

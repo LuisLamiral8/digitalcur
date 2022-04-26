@@ -5,7 +5,18 @@ import Card from "../../components/Products/Card";
 
 const digitalGames = () => {
   return (
-    <Layout title="Digital Games | DigitalCur" desc="DigitalCur">
+    <Layout
+        title="Digital | DigitalCur"
+        desc="DigitalCur"
+        icon1="/icons/gamesphysical.svg"
+        icon2="/icons/activedigital.svg"
+        icon3="/icons/games.svg"
+        icon4="/icons/gamesstreaming.svg"
+        class1="item"
+        class2="itemActive"
+        class3="item"
+        class4="item"
+      >
       <div className={styles.container}>
         <div className={styles.filterContainer}>
           <div className={styles.filter}>
@@ -16,7 +27,7 @@ const digitalGames = () => {
             <a href="#">• Shooter</a>
             <a href="#">• Survival</a>
             <a href="#">• Indie</a>
-            <a href="#">• Long Storty</a>
+            <a href="#">• Long Story</a>
             <a href="#">• MMORPG</a>
             <a href="#">• RPG</a>
             <a href="#">• Multiplayer</a>
@@ -37,11 +48,11 @@ const digitalGames = () => {
         <div className={styles.productsContainer}>
           <div className={styles.productTitle}>
             <h2>Digital Games</h2>
-            <button>Popular First</button>
-            <button>Cheapest First</button>
-            <button>Discount First</button>
-            <button>Newest First</button>
-            <button className={styles.responsiveBtn}> <img src="/icons/uparrow.svg" alt="" /> </button>
+            {/* <button>Popular First</button> */}
+            {/* <button>Cheapest First</button> */}
+            {/* <button>Discount First</button> */}
+            {/* <button>Newest First</button> */}
+            {/* <button className={styles.responsiveBtn}> <img src="/icons/uparrow.svg" alt="" /> </button> */}
           </div>
           <div className={styles.cardsContainer}>
             <Card

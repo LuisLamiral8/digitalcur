@@ -83,6 +83,7 @@ export default function Products({title, to}) {
             <Link className={styles.a} href={to} >
               <a>See all</a>
             </Link>
+            <img src="/icons/rightarrow.svg" alt="" />
             {/* <Image src="/icons/downtriangle.svg" width={18} height={18} /> */}
           </div>
         </div>

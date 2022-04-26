@@ -25,7 +25,6 @@
     }
     .filter {
       border-bottom: 1px solid #83838371;
-
       width: 90%;
       height: 60%;
       display: flex;
@@ -34,8 +33,9 @@
         text-decoration: none;
         // list-style-type: circle;
         color: white;
+        font-size: 12px;
         text-align: left;
-        margin: 5px 50px;
+        margin: 5px 0px 5px 25px;
         transition: all 250ms;
         &:hover {
           color: #808080;
@@ -98,6 +98,7 @@
       display: flex;
       flex-direction: row;
       align-items: center;
+      justify-content: center;
       h2 {
         font-size: 40px;
         font-family: Roboto, sans-serif;
@@ -105,27 +106,27 @@
         margin-left: 50px;
         font-weight: 800;
       }
-      button {
-        cursor: pointer;
-        height: 60px;
-        border: none;
-        background: none;
-        margin: 0 2vw;
-        color: white;
-        font-size: 15px;
-        font-weight: 600;
-        transition: all 250ms;
-        &:hover {
-          color: #2d60e4;
-        }
-        &:focus {
-          color: #2d60e4;
-          border-top: 3px solid #2d60e4;
-        }
-      }
-      .responsiveBtn {
-        display: none;
-      }
+      // button {
+      //   cursor: pointer;
+      //   height: 60px;
+      //   border: none;
+      //   background: none;
+      //   margin: 0 2vw;
+      //   color: white;
+      //   font-size: 15px;
+      //   font-weight: 600;
+      //   transition: all 250ms;
+      //   &:hover {
+      //     color: #2d60e4;
+      //   }
+      //   &:focus {
+      //     color: #2d60e4;
+      //     border-top: 3px solid #2d60e4;
+      //   }
+      // }
+      // .responsiveBtn {
+      //   display: none;
+      // }
     }
     .cardsContainer {
       width: 100%;
@@ -182,15 +183,20 @@
 
 @media (max-width: 900px) {
   .productTitle {
+    width: 90% !important;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column !important;
+    text-align: center;
     h2 {
+      font-size: 50px !important;
+      // background: red;
+      width: 100% !important;
       margin-right: 20px !important;
     }
   }
   .filterContainer {
     display: none !important;
-  }
-  .cardsContainer {
-    gap: 5px !important;
   }
 }
 
@@ -200,6 +206,7 @@
     margin-bottom: 100px !important;
     .productTitle {
       // background: red;
+      width: 100% !important;
       height: 100% !important;
       margin: 50px 0 20px 0;
       display: flex !important;

@@ -26,7 +26,7 @@
       .cardContainer {
         width: 100%;
         height: 100%;
-        //   background: green;
+        // background: green;
         display: flex;
         flex-direction: column;
         gap: 25px;
@@ -45,13 +45,13 @@
         justify-content: space-between;
         align-items: center;
         button {
-          width: 250px;
-          height: 100px;
-          border-radius: 20px;
+          width: 150px;
+          height: 50px;
+          border-radius: 10px 10px 10px 10px;
           border: none;
           background-color: #2d60e4;
           color: white;
-          font-size: 25px;
+          font-size: 12px;
           font-weight: 900;
           font-family: Roboto, sans-serif;
           cursor: pointer;
@@ -213,8 +213,9 @@
 }
 @media (max-width: 990px) {
   .mainContainer {
+    flex-direction: column !important;
     .leftContainer {
-      width: 40% !important;
+      width: 100% !important;
       .leftInfo {
         font-size: 10px !important;
       }
@@ -229,7 +230,11 @@
       }
     }
     .rightContainer {
-      width: 60% !important;
+      width: 100% !important;
+      border-radius: 5px 5px 20px 20px !important;
+      .rightInfo {
+        border-radius: 20px !important;
+      }
     }
   }
 }
@@ -247,12 +252,21 @@
     }
   }
 }
-@media (max-width: 500px) {
+@media(max-width:600px){
   .leftTitle{
+    margin: 20px auto;
+
+    h2{
+      font-size: 40px !important;
+      text-align: center;
+    }
+  }
+}
+@media (max-width: 500px) {
+  .leftTitle {
     font-size: 20px !important;
     text-align: center;
     margin: 20px auto;
-
   }
   .mainContainer {
     margin-bottom: 100px !important;
@@ -260,9 +274,9 @@
       width: 80% !important;
       margin: 0 auto;
     }
-    .rightContainer{
-      .creditContainer{
-        h2{
+    .rightContainer {
+      .creditContainer {
+        h2 {
           font-size: 35px !important;
         }
       }

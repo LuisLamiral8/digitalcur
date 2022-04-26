@@ -4,7 +4,18 @@ import ProductRecord from "../components/ProductRecord";
 import styles from "../styles/UserProfile.module.scss";
 const user = () => {
   return (
-    <Layout title="User | DigitalCur" desc="DigitalCur">
+    <Layout
+        title="My Profile | DigitalCur"
+        desc="DigitalCur"
+        icon1="/icons/gamesphysical.svg"
+        icon2="/icons/gamesdigital.svg"
+        icon3="/icons/games.svg"
+        icon4="/icons/gamesstreaming.svg"
+        class1="item"
+        class2="item"
+        class3="item"
+        class4="item"
+      >
       <div className={styles.container}>
         <div className={styles.titleContainer}>
           <div className={styles.upContainer}>

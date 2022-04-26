@@ -7,7 +7,18 @@ import { useRouter } from "next/router";
 const Login = () => {
   const router = useRouter();
   return (
-    <Layout title="Login | DigitalCur" desc="DigitalCur">
+    <Layout
+        title="Login | DigitalCur"
+        desc="DigitalCur"
+        icon1="/icons/gamesphysical.svg"
+        icon2="/icons/gamesdigital.svg"
+        icon3="/icons/games.svg"
+        icon4="/icons/gamesstreaming.svg"
+        class1="item"
+        class2="item"
+        class3="item"
+        class4="item"
+      >
       <div className={styles.containerLogin}>
         <div className={styles.login}>
           <h2>LOGIN</h2>

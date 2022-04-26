@@ -4,7 +4,18 @@ import styles from "../../styles/Search.module.scss";
 import Card from "../../components/Products/Card";
 const home = () => {
   return (
-    <Layout title="All our Games | DigitalCur" desc="DigitalCur">
+    <Layout
+      title="Games | DigitalCur"
+      desc="DigitalCur"
+      icon1="/icons/gamesphysical.svg"
+      icon2="/icons/gamesdigital.svg"
+      icon3="/icons/activegames.svg"
+      icon4="/icons/gamesstreaming.svg"
+      class1="item"
+      class2="item"
+      class3="itemActive"
+      class4="item"
+    >
       <div className={styles.container}>
         <div className={styles.filterContainer}>
           <div className={styles.filter}>
@@ -15,7 +26,7 @@ const home = () => {
             <a href="#">• Shooter</a>
             <a href="#">• Survival</a>
             <a href="#">• Indie</a>
-            <a href="#">• Long Storty</a>
+            <a href="#">• Long Story</a>
             <a href="#">• MMORPG</a>
             <a href="#">• RPG</a>
             <a href="#">• Multiplayer</a>
@@ -36,11 +47,16 @@ const home = () => {
         <div className={styles.productsContainer}>
           <div className={styles.productTitle}>
             <h2>All our games</h2>
-            <button>Popular First</button>
-            <button>Cheapest First</button>
-            <button>Discount First</button>
-            <button>Newest First</button>
-            <button className={styles.responsiveBtn}> <img src="/icons/uparrow.svg" alt="" /> </button>
+            {/* <div className={styles.btnContainer}> */}
+              {/* <button>Popular First</button> */}
+              {/* <button>Cheapest First</button> */}
+              {/* <button>Discount First</button> */}
+              {/* <button>Newest First</button> */}
+            {/* </div> */}
+            {/* <button className={styles.responsiveBtn}>
+              {" "}
+              <img src="/icons/uparrow.svg" alt="" />{" "}
+            </button> */}
           </div>
           <div className={styles.cardsContainer}>
             <Card
@@ -87,19 +103,13 @@ const home = () => {
             />
           </div>
           <div className={styles.pagination}>
-            <img
-              src="/icons/bluetriangleleft.svg"
-              alt=""
-            />
+            <img src="/icons/bluetriangleleft.svg" alt="" />
             <a>1</a>
             <a>2</a>
             <a>3</a>
             <a>4</a>
             <a>5</a>
-            <img
-              src="/icons/bluetriangleright.svg"
-              alt=""
-            />
+            <img src="/icons/bluetriangleright.svg" alt="" />
           </div>
         </div>
       </div>

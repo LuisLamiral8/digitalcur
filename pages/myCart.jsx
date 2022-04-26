@@ -10,7 +10,18 @@ const Cart = () => {
     router.push("/");
   };
   return (
-    <Layout title="My Cart | DigitalCur" desc="DigitalCur">
+    <Layout
+        title="My cart | DigitalCur"
+        desc="DigitalCur"
+        icon1="/icons/gamesphysical.svg"
+        icon2="/icons/gamesdigital.svg"
+        icon3="/icons/games.svg"
+        icon4="/icons/gamesstreaming.svg"
+        class1="item"
+        class2="item"
+        class3="item"
+        class4="item"
+      >
       <div className={styles.container}>
         <div className={styles.leftTitle}>
           <h2>My shopping cart</h2>

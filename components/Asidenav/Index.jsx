@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from 'next/link'
 import { useRouter } from "next/router";
 
-const Asidenav = () => {
+const Asidenav = ({icon1, class1, icon2, class2, icon3, class3, icon4, class4}) => {
   const router = useRouter();
   const handleClick = (e) => {
     e.preventDefault();
@@ -22,7 +22,6 @@ const Asidenav = () => {
     e.preventDefault();
     router.push("/myCart");
   };
-
   return (
     <nav className={styles.nav}>
       <div className={styles.standardNav}>
@@ -49,30 +48,30 @@ const Asidenav = () => {
           </div>
         </div>
         <div className={styles.categoryTitle}>
-          <h2>CATEGORY</h2>
-          <Image src="/icons/uparrow.svg" width={25} height={25} alt="" />
+          <h2>CATEGORIES</h2>
+          {/* <Image src="/icons/uparrow.svg" width={25} height={25} alt="" /> */}
         </div>
         <div className={styles.section2}>
-          <div className={styles.item}>
-            <Image src="/icons/physicalgames.svg" width={25} height={25} alt="" />
+          <div className={class1}>
+            <Image src={icon1} width={25} height={25} alt="" />
             <Link href="/search/searchPhysical">
               <a>Physical Games</a>
             </Link>
           </div>
-          <div className={styles.item}>
-            <Image src="/icons/digitalgames.svg" width={25} height={25} alt=""/>
+          <div className={class2}>
+            <Image src={icon2} width={25} height={25} alt=""/>
             <Link href="/search/searchDigital">
               <a>Digital Games</a>
             </Link>
           </div>
-          <div className={styles.item}>
-            <Image src="/icons/games.svg" width={25} height={25} alt=""/>
+          <div className={class3}>
+            <Image src={icon3} width={25} height={25} alt=""/>
             <Link href="/search/">
               <a>Games</a>
             </Link>
           </div>
-          <div className={styles.item}>
-            <Image src="/icons/streaming.svg" width={25} height={25} alt=""/>
+          <div className={class4}>
+            <Image src={icon4} width={25} height={25} alt=""/>
             <Link href="/search/searchStreaming">
               <a>Streaming</a>
             </Link>
