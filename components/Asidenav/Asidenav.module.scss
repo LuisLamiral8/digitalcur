@@ -177,3 +177,13 @@ $texts: #484848;
     display: flex !important;
   }
 }
+@media(max-width:500px){
+  .responsiveNav{
+    align-items: center;
+    button{
+      img{
+        width: 25px !important;
+      }
+    }
+  }
+}
